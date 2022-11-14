@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:2137/postgres
+    username: postgres
+    password: password
+    driverClassName: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    generate-ddl: true
+
+geolocation:
+  url: https://geocoding-api.open-meteo.com/v1
